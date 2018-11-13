@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <script src="/lib/vue-2.4.0.js"></script>
+    <script src="/lib/vue-resource-1.3.4.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <com-box></com-box>
+      <ul class="list-group">
+        <li class="list-group-item" v-for="item in allData" :key="item.id">
+          {{ item.comment }}<span class="badge">评论人:{{ item.user }}</span>
+        </li>
+      </ul>
+    </div>
+
+    <template id="temp">
+      <div>
+        <div class="form-group">
+          <label>评论人：</label>
+          <input type="text" class="form-control" v-model="user" />
+        </div>
+      </div>
+    </template>
+
+    <script src="/lib/index.js"></script>
+  </body>
+</html>

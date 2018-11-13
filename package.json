@@ -1,0 +1,26 @@
+{
+  "name": "VueCommentDemo",
+  "version": "1.0.0",
+  "description": "一个用Vue实现评论的Demo,",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanWangit/VueCommentDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HanWangit/VueCommentDemo/issues"
+  },
+  "homepage": "https://github.com/HanWangit/VueCommentDemo#readme"
+}
