@@ -4,6 +4,7 @@
   "description": "一个用Vue实现评论的Demo,",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "bootstrap": "^3.3.7",
     "express": "^4.16.4",
     "mysql": "^2.16.0"
